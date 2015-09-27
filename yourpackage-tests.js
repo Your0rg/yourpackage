@@ -22,14 +22,7 @@ Tinytest.add('Check Equality', function sanityCheckEQ(test) {
   test.equal(true, true);
 });
 
-/**
- * Simply verifies that true not equals false
- * @name sanityCheckNEQ
- * @memberof Tinytest
- * @function
- * @param  test {Tinytest} Check Inequality
- * @return {None}
- */
+//  FIXME PLEASE
 Tinytest.add('Check inequality', function sanityCheckNEQ(test) {
   test.notEqual(true, false);
 });
